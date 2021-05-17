@@ -1,11 +1,14 @@
 [tool.poetry]
-name = "python-template"
+name = "ocr"
 version = "0.1.0"
 description = ""
 authors = ["Life-Long Learner <life.long.learner127@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+imutils = "^0.5.4"
+opencv-python = "^4.5.2"
+pytesseract = "^0.3.7"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
